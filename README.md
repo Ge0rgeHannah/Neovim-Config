@@ -1,14 +1,7 @@
-# kickstart.nvim
+# My Neovim config
+## Built from -> kickstart.nvim
 
-## Introduction
-
-A starting point for Neovim that is:
-
-* Small
-* Single-file
-* Completely Documented
-
-**NOT** a Neovim distribution, but instead a starting point for your configuration.
+(This README is a slightly modified version of the original kickstart README)
 
 ## Installation
 
@@ -38,7 +31,7 @@ External Requirements:
 > See [Install Recipes](#Install-Recipes) for additional Windows and Linux specific notes
 > and quick install snippets
 
-### Install Kickstart
+### Install Config
 
 > [!NOTE]
 > [Backup](#FAQ) your previous configuration (if any exists)
@@ -65,7 +58,7 @@ You likely want to remove `lazy-lock.json` from your fork's `.gitignore` file
 too - it's ignored in the kickstart repo to make maintenance easier, but it's
 [recommended to track it in version control](https://lazy.folke.io/usage/lockfile).
 
-#### Clone kickstart.nvim
+#### Clone Config
 
 > [!NOTE]
 > If following the recommended step above (i.e., forking the repo), replace
