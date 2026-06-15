@@ -12,7 +12,6 @@ return {
       local harpoon = require 'harpoon'
       harpoon:setup {}
 
-      -- Keybindings
       vim.keymap.set('n', '<leader>a', function()
         harpoon:list():add()
       end, { desc = 'Add file to Harpoon' })
