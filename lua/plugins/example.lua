@@ -72,6 +72,7 @@ return {
       servers = {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
+        basedpyright = {},
       },
     },
   },
@@ -127,9 +128,11 @@ return {
         "lua",
         "markdown",
         "markdown_inline",
+        "ninja",
         "python",
         "query",
         "regex",
+        "rust",
         "tsx",
         "typescript",
         "vim",
